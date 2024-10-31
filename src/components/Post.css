@@ -1,0 +1,26 @@
+.post {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for a card-like look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a lifted effect */
+  border: 1px solid #dddfe2; /* Light border to define the card */
+  margin-bottom: 20px; /* Space between each card */
+  transition: box-shadow 0.3s ease; /* Smooth shadow effect on hover */
+}
+
+.post:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly elevated shadow on hover */
+}
+
+.post p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.post small {
+  display: block;
+  margin-top: 8px;
+  color: #65676b;
+  font-size: 0.9rem;
+}

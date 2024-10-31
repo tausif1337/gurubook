@@ -1,0 +1,46 @@
+.comment-list {
+  margin-top: 15px;
+  border-top: 1px solid #ccd0d5;
+  padding-top: 10px;
+}
+
+/* Ensure the input field fits within the container */
+.comment-list input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  background-color: #f0f2f5;
+  outline: none;
+  margin-top: 10px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.comment-list input[type="text"]:focus {
+  border: 1px solid #1877f2;
+}
+
+/* Button styling */
+.comment-list button {
+  padding: 8px 16px;
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.comment-list button:hover {
+  background-color: #36a420;
+}
+
+.comment-list span {
+  font-weight: bold;
+  color: #65676b;
+  display: block;
+  margin-top: 10px;
+}
